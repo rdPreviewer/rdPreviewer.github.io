@@ -2,7 +2,7 @@
  * @Author: yibin.lin yibin.lin@tcl.com
  * @Date: 2023-09-25 16:37:11
  * @LastEditors: famin.ma famin.ma@tcl.com
- * @LastEditTime: 2023-11-06 19:04:22
+ * @LastEditTime: 2023-11-07 19:19:03
  * @FilePath: \rd-utils\docs\guide\start.md
  * @Description:
  *
@@ -13,14 +13,20 @@
 安装
 
 ```bash
-npm install m-previewer
+// 切换到tcl制品库仓库
+npm config set registry=https://tone.tcl.com/pkg/devops/npm/npm/snapshot/
+// 下载
+npm install @rd/previewer
+
+// or
+npm install [PACKAGE]@[VERSION] --registry=https://tone.tcl.com/pkg/devops/npm/npm/snapshot/
 ```
 
 引入注册
 ```javascript
-// 引入并注册MPreviewer
-import MPreviewer from 'm-previewer' // ES模块的环境中（如现代浏览器）
-// const MPreviewer =require("m-previewer").default // Node.js环境
+// 引入并注册
+import MPreviewer from '@rd/previewer' // ES模块的环境中（如现代浏览器）
+// const MPreviewer =require("@rd/previewer").default // Node.js环境
 app.use(MPreviewer)
 
 // 按需引入并注册 指定类型文件预览
@@ -33,13 +39,13 @@ import {
     MImage, 
     MAudio, 
     MVideo
-} from 'm-previewer'
-// const { MWord, MExecl, MPdf, MPptx, MText, MImage, MAudio, MVideo} = require("m-previewer") 
+} from '@rd/previewer'
+// const { MWord, MExecl, MPdf, MPptx, MText, MImage, MAudio, MVideo} = require("@rd/previewer") 
 app.use(MWord).use(MExecl).use(MPdf).use(MPptx).use(MText).use(MImage).use(MAudio).use(MVideo)
 
 // 引入样式文件
-import 'm-previewer/style.css'
-// require('m-previewer/style.css')
+import '@rd/previewer/style.css'
+// require('@rd/previewer/style.css')
 ```
 
 使用
