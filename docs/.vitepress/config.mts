@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base:'/',
-  title: "rdPreviewer",
+  title: "rd-previewer",
   description: "一个基于vue3+ts+vite构建的前端一站式集成预览插件",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
