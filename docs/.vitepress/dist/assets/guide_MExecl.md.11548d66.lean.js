@@ -1,1 +1,0 @@
-import{_ as t,o as e,c as r,Q as a}from"./chunks/framework.b67c47e6.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/MExecl.md","filePath":"guide/MExecl.md"}'),o={name:"guide/MExecl.md"},d=a("",2),s=[d];function c(_,i,l,n,p,h){return e(),r("div",null,s)}const u=t(o,[["render",c]]);export{m as __pageData,u as default};

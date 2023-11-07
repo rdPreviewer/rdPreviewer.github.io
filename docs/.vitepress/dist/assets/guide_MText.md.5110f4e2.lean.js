@@ -1,1 +1,0 @@
-import{_ as t,o as e,c as r,Q as d}from"./chunks/framework.b67c47e6.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/MText.md","filePath":"guide/MText.md"}'),a={name:"guide/MText.md"},o=d("",2),s=[o];function i(n,_,c,p,h,l){return e(),r("div",null,s)}const m=t(a,[["render",i]]);export{f as __pageData,m as default};

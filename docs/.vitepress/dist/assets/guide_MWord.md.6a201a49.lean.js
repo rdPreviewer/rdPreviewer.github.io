@@ -1,1 +1,0 @@
-import{_ as t,o as r,c as e,Q as o}from"./chunks/framework.b67c47e6.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/MWord.md","filePath":"guide/MWord.md"}'),d={name:"guide/MWord.md"},a=o("",2),s=[a];function _(i,n,c,p,h,l){return r(),e("div",null,s)}const u=t(d,[["render",_]]);export{m as __pageData,u as default};
