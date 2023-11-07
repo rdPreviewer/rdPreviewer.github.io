@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as r,Q as a}from"./chunks/framework.b67c47e6.js";const P=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/MPdf.md","filePath":"guide/MPdf.md"}'),d={name:"guide/MPdf.md"},o=a("",2),s=[o];function _(i,n,c,p,h,l){return e(),r("div",null,s)}const m=t(d,[["render",_]]);export{P as __pageData,m as default};
