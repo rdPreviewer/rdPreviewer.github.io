@@ -19,6 +19,6 @@ features:
   - title: ES6+ & CommonJS
     details: 适用于现代浏览器 和 Node环境
   - title: More
-    details: 更多能力静待挖掘
+    details: 更多能力静待挖掘...
 ---
 
